@@ -50,3 +50,18 @@ After the decision to remove the outliers from the dataset (we removed rows with
 
 // TODO boxplot with removed outliers
 
+### Data visualisation
+
+#### Corellations between attributes
+// TODO correlation image
+
+Based on the correlation image, we can see that **price**, **sqft_living**, **sqft_above** and **grade** are the most correlated attributes. We can also see a big correlation betweeen **sqft_living** and **sqft_living15**, **sqft_lot** and **sqft_lot15** which implicises that there is an impact of the neighbourhood. We can also notice a small correlcation between **renovation** and **price**, also small correlation between **condition** and **yr_built** (we can assume that older building are also renovated so that means that they are not necessary in bad condition).
+Based on the correlation values we can also assume what kind of factors can increase the price of the real-estate. We can assume that investment in **grade**, **sqft**, **view**, **waterfront** and the number of rooms can increase the *price** of the real-estate.
+
+### Visualisation of some attributes
+
+// TODO images 
+
+Based on the graphs we can see above, we can see that majority of important attributes we presented have a normal distribution.
+
+
