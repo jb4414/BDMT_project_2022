@@ -65,3 +65,40 @@ Based on the correlation values we can also assume what kind of factors can incr
 Based on the graphs we can see above, we can see that majority of important attributes we presented have a normal distribution.
 
 
+### Graph of price related to sqrt_living
+
+// TODO add graph (maybe with linear regression?)
+
+Based on the graph we can see a trend of **price** related to the **sqrt_living**. we can assume that bigger the living space of the real-estate, more expensive it is. We can confirm that by adding the linear regression line. Line has a positive trend.
+
+### Graph of price related to yr_built
+// TODO add image
+
+Based on the graph where we represented the relation between **price** and **yr_built**, we cannot see a clear connection between these two attributes. This was also noticable with the small correlation values. We can assume that the newer apartments are expensive but the old ones are not cheaper. There can be some sentimental or historic value attached to the building (and renovated) and because of that they are holding the price high. We cannot assume that older building are cheaper.
+
+### Graph of price related to grade.
+
+// TODO add image of price - grade
+
+We can see a clear (positive) trend that **price** is related to **grade**. Based on the graph we can assume that **price** is higher if **grade** is higher.
+
+### Graph of price related to view.
+
+// TODO add image of price - view
+
+Based on the graph we can see a trend of **view** related to **price**. It seems that better view increases the price of the real-estate, but the differences are not big.
+
+### Graph of price related to waterfont.
+
+// TODO add image of price - waterfont
+
+We can see that real-estates with **waterfont** view are more likely (more frequently) more expensive that the real-estates with not waterfront view. Correlation factor between these two attributes is small so we can assume that other attributes have an actual impact on the price and that there is no real connection between these two attributes.
+
+
+### Graph of number of rooms related to price.
+// TODO add image of price - bedrooms
+// TODO add image of price - bathrooms
+
+Based on the graphs we can see a trend of having more rooms, increases the price. Correlation value of these attributes in moderate.
+
+
